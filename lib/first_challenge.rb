@@ -16,7 +16,9 @@ def first_challenge
 
   #your code here
 contacts['Freddy Mercury'].each do |key, value|
-  #binding.pry
+  if key == :favorite_icecream_flavors
+    if value.include?("strawberry")
+      
   value
 end
 
